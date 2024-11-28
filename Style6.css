@@ -119,3 +119,12 @@ nav a:hover{
     text-align: center;
     padding: 2px;
 }
+
+@media screen and (max-width: 900px) {
+    header h1 {
+        font-size: 1.2em;
+    }
+    p {
+      font-size: 0.8em;
+    }
+}
