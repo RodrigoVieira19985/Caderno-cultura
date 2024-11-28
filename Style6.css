@@ -1,0 +1,121 @@
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+body{
+   background-image: url(imagens/fundo-site.jpg);
+   height: 90vh;
+   flex-wrap: wrap;
+   padding: 20px;
+}
+
+.folha{
+    background-image: url(imagens/folha1.webp);
+    width: 800px;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: start;
+    background-position: right;
+    padding: 20px;
+    display: flow-root;
+}
+
+.folha2{
+    background-image: url(imagens/folha2.webp);
+    justify-content: end;
+    background-position: left;
+
+}
+div{
+    display: flex;
+}
+main{
+    background-image: url(imagens/plano-de-fundo-da-folha-tentativa4.jpg);
+    width: 95%;
+    height: 98%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: start;
+    background-position: right;
+    padding: 10px;
+}
+
+a{
+    display: flex;
+    color: #2980b9;
+    text-decoration: none;
+    align-items: flex-start;
+
+}
+
+.Proximo{
+    display: flex;
+    justify-content: right;
+    margin-top: 100;
+}
+
+header{
+    height: fit-content;
+    padding: 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+li{
+    font-size: 20px;
+    text-align: left;
+}
+p{
+    font-size: 17px;
+}
+img{
+    background-position: center;
+    width: 240px;
+    height: 20%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: start;
+    background-position: right;
+    padding: 20px;
+}
+.img3{
+    background-position: center;
+    width: 240px;
+    height: 20%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: start;
+    background-position: right;
+    padding: 20px;
+}
+footer{
+    background-color: rgb(131, 49, 49);
+    margin: 2px 10px;
+    border-radius: 5px;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+nav a{
+    text-decoration: none;
+    background-color: rgb(131, 49, 49);
+    color: white;
+    font-size: 25px;
+    margin: 35px;
+}
+nav a:hover{
+    background-color: white;
+    color: #000;
+    border-radius: 10px;
+    transition: 0.1s;
+    text-align: center;
+    padding: 2px;
+}

@@ -1,0 +1,69 @@
+.flex{
+    display: flex;
+    align-items: center;
+}
+
+body{
+   background-image: url(imagens/fundo-site.jpg);
+   height: 90vh;
+   flex-wrap: wrap;
+   padding: 20px;
+   justify-content: center;
+}
+
+.folha{
+    background-image: url(imagens/folha1.webp);
+    width: 800px;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: start;
+    background-position: right;
+    padding: 20px;
+}
+
+.folha2{
+    background-image: url(imagens/folha2.webp);
+    justify-content: end;
+    background-position: left;
+    border-radius: 3%;
+}
+
+main{
+    background-image: url(imagens/1600w-yTnv4GY__lU.png);
+    width: 95%;
+    height: 100%;
+    border-radius: 3%;
+    justify-content: end;
+    
+   
+}
+div{
+    background-color: white;
+    height:15%;
+    width: 35%;
+    border-top-left-radius: 50%;
+    display: flex;
+    border-bottom-left-radius: 50%; 
+    align-items: center;
+    
+}
+.banner{
+    background-color: rgb(107,67,67);
+    height:75px;
+    width:75px;
+    border-radius: 90%;
+    align-items: center;
+    margin-left: 15%;
+    display: flex;
+    justify-content: center;
+    
+    
+}
+a{
+    color: white;
+    text-decoration: none;
+    align-items: center;
+    justify-content: center;
+    
+}

@@ -1,0 +1,97 @@
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+body{
+   background-image: url(imagens/fundo-site.jpg);
+   height: 90vh;
+   flex-wrap: wrap;
+   padding: 20px;
+}
+
+.folha{
+    background-image: url(imagens/folha1.webp);
+    width: 800px;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: start;
+    background-position: right;
+    padding: 20px;
+}
+
+.folha2{
+    background-image: url(imagens/folha2.webp);
+    justify-content: end;
+    background-position: left;
+}
+
+main{
+    background-color: rgb(240, 212, 177);
+    width: 95%;
+    height: 97%;
+}
+header{
+    height: fit-content;
+    padding: 10px;
+    background-color:  rgb(141, 82, 26);
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+h2{
+  text-align: center;
+  
+}
+img{
+    width: 170px;
+    height: 150px;
+    border-radius: 15px;
+    margin:20px 15px;
+}
+div{
+    display: flex;
+    text-align: center;
+}
+h3{
+    display: flex;
+    margin-bottom: 40px;
+    font-size: 15px;
+    color: antiquewhite;
+    text-decoration: underline;
+
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    
+}
+nav a{
+    text-decoration: none;
+    background-color: rgb(141, 82, 26);
+    color: white;
+    font-size: 25px;
+    margin: 35px;
+}
+footer{
+    background-color:  rgb(141, 82, 26);
+    margin: 2px 10px;
+    border-radius: 5px;
+}
+nav a:hover{
+    background-color: white;
+    color:rgb(141, 82, 26);
+    border-radius: 10px;
+    transition: 0.1s;
+    text-align: center;
+    padding: 2px;
+}
+.img{
+    display: flex;
+    justify-content: center;
+}
